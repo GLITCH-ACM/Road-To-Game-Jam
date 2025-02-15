@@ -1,0 +1,147 @@
+# =============== #
+# Unity .gitignore #
+# =============== #
+
+# Ignore unnecessary system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore logs and temp files
+Logs/
+Temp/
+UserSettings/
+
+# Ignore local builds
+Build/
+Builds/
+Library/
+obj/
+bin/
+
+# Ignore Unity generated files
+*.sln
+*.csproj
+*.unityproj
+*.asset
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+*.pdb
+
+# Ignore Unity autosave files
+*.autosave
+
+# Ignore crash reports
+CrashReport/
+
+# Ignore compiled assemblies
+*.dll
+*.exe
+*.so
+*.dylib
+*.ncb
+*.pdb
+*.idb
+*.class
+
+# Ignore metadata files
+*.mdb
+*.bak
+*.swp
+*.lock
+*.tmp
+*.temp
+
+# Ignore Visual Studio and Rider files
+.vscode/
+.idea/
+*.iml
+
+# Ignore JetBrains Rider specific files
+*.sln.DotSettings.user
+*.unityproj
+*.ReSharper
+*.suo
+*.userprefs
+
+# Ignore TextMesh Pro generated files
+TextMesh Pro/*/Resources/*.asset
+
+# Ignore Addressable Assets
+/AddressableAssetsData/*.bin
+/AddressableAssetsData/*.json
+
+# Ignore Unity Collaborate
+/Collab/
+
+# Ignore Generated Lighting Data
+/LightingData.asset
+/GI/
+
+# Ignore Unity Cache and Thumbnails
+Library/
+UnityCache/
+AssetStoreTools/
+
+# Ignore LFS storage (optional)
+*.psd
+*.tga
+*.tif
+*.tiff
+*.fbx
+*.mp4
+*.wav
+*.avi
+*.mov
+
+# Ignore Logs and crash dumps
+*.log
+*.dmp
+
+# Ignore Rider & JetBrains IDE settings
+.idea/
+*.sln*
+*.csproj*
+
+# Ignore Python virtual environment (if used)
+venv/
+__pycache__/
+
+# Ignore Node.js dependencies (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore Unity Cloud Build generated files
+/Library/CloudBuild/
+
+# Ignore Flutter (if used for Unity mobile integration)
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+
+# Ignore Unity XR SDK generated files
+/Packages/com.unity.xr.*
+
+# Ignore Local Package Cache
+/Packages/manifest.json
+/Packages/packages-lock.json
+
+# Ignore Steamworks SDK (if used)
+Steamworks.NET/
+
+# Ignore PlayFab SDK (if used)
+PlayFabUnityEditorExtensions/
+
+# Ignore Unity Asset Store imported packages
+Assets/AssetStoreTools/
+
+# End of .gitignore
